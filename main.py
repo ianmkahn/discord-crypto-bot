@@ -4,7 +4,7 @@ import json
 from coingecko import get_price_and_ath
 import asyncio
 
-TOKEN = 'MTM5NzkyOTQ2OTM5MzUwNjMyNA.Gp2QGx.UdWKkENCxhwtx3JfTPNaNsxdYYo_QvcheVoJJo'  # not webhook, this is the bot token
+TOKEN = 'DISCORD_BOT_TOKEN'  # not webhook, this is the bot token
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix='/', intents=intents)
 
